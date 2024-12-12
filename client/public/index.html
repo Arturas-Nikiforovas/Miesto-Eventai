@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miesto Renginiai</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .events {
+      list-style-type: none;
+      padding: 0;
+    }
+    .event-item {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .event-item h3 {
+      margin-top: 0;
+    }
+    .event-item img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .button-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .button-container a {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .button-container a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Miesto Renginiai</h1>
+    <p>Čia galite rasti artėjančius renginius mūsų mieste</p>
+  </header>
+
+  <main>
+    <h2>Renginiai</h2>
+    <ul class="events">
+      <li class="event-item">
+        <h3>Labas Renginys</h3>
+        <p><strong>Kategorija:</strong> Draugiškas</p>
+        <p><strong>Data:</strong> 2019-02-22</p>
+        <p><strong>Vieta:</strong> Klaipėda</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg/220px-Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg" alt="Event Image">
+      </li>
+      <li class="event-item">
+        <h3>Renginys 2</h3>
+        <p><strong>Kategorija:</strong> Kultūra</p>
+        <p><strong>Data:</strong> 2024-12-20</p>
+        <p><strong>Vieta:</strong> Vilnius</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg/220px-Balantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg" alt="Event Image">
+      </li>
+    </ul>
+
+    <!-- Mygtukai su nuorodomis -->
+    <div class="button-container">
+      <a href="#create-event">Sukurti renginį</a>
+      <a href="#view-events">Peržiūrėti renginius</a>
+      <a href="#admin-panel">Administratoriaus panelė</a>
+    </div>
+  </main>
+
+
+</body>
+</html>
